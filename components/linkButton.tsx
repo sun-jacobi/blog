@@ -4,8 +4,8 @@ import styled from 'styled-components';
 
 
 const StyledButton = styled(Button)`
-    margin-top: 10px;
-    width: 100px;
+    margin-top: 13px;
+    width: 150px;
 `;
 
 

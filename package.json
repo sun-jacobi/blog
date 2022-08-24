@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.0",
+    "gray-matter": "^4.0.3",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "18.2.0",
+    "remark": "^14.0.2",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
