@@ -10,12 +10,10 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div>
     <Head>
       
-    <style>
-          @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-        </style>
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Montserrat:wght@300&family=Saira+Condensed:wght@100&display=swap');
-</style>
+    <style> @import url(&apos;https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap&apos;);
+    </style>
+    <style>@import url(&apos;https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Montserrat:wght@300&family=Saira+Condensed:wght@100&display=swap&apos;);
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </Head>
   <Component {...pageProps} />
