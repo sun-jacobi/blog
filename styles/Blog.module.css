@@ -1,0 +1,42 @@
+.main {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: groove;
+    box-shadow: black 10px 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.main h1 {
+    background-color: black;
+    color: white;
+    margin: 30px 0px;
+    font-size: large;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.main h2 {
+    font-family: 'Saira Condensed', sans-serif;
+}
+.main h3 {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.time {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .main  {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+}
+
+

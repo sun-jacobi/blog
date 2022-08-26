@@ -1,4 +1,4 @@
-import Head  from "next/head";
+
 import styles from '../styles/About.module.css'
 
 
@@ -25,21 +25,14 @@ const Identity = styled.div`
 `;
 
 export default function About() {
-    return (
-        <div>
-    <Head>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100&display=swap');
-    </style>
-    </Head>
-    
+    return (  
     <div className={styles.main}>
-    <code> type myName = "Chia"|"Jacob"|"sonka";</code>
+    <h1>Chia | Jacob | sonka</h1>
     <Identity>Undergraduate Student In CS / Math 
     @ Kyoto University</Identity>
     <StyledDiv> Interest </StyledDiv>
         <ul> 
-            <li>System (DBMS, OS, Compiler,etc)</li>
+            <li> System (DBMS, OS, Compiler, etc)</li>
             <li>WebDev (Frontend/Backend)</li>
         </ul>
     <StyledDiv> Langs</StyledDiv>
@@ -52,8 +45,9 @@ export default function About() {
         </ul>
     <StyledDiv> FrameWorks</StyledDiv>
         <ul> 
-           <li> Next (React) </li>
+           <li> Next (React)</li>
            <li> Node (Express)</li>
+           <li> Gin </li>
         </ul>
         
     <StyledDiv> Tools </StyledDiv>
@@ -61,6 +55,5 @@ export default function About() {
         <li>   Git  </li>
         <li> Docker </li>
         </ul>  
-        </div>
         </div>);
 }

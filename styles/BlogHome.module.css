@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.main h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 12px;
+}
+
+.main h2 {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    letter-spacing: 8px;
+}
+
